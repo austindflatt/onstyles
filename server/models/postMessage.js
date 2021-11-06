@@ -5,7 +5,6 @@ const postSchema = mongoose.Schema({
     brand: String,
     model: String,
     colorway: String,
-    color: String,
     creator: String,
     tags: [String],
     selectedFile: String,
