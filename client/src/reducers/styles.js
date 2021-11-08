@@ -3,7 +3,7 @@ export default (styles = [], action) => {
         case 'FETCH_ALL':
             return styles;
         case 'CREATE':
-            return styles;
+            return [...styles, action.payload];
         default:
             return styles;
     }

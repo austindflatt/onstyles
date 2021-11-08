@@ -9,7 +9,14 @@ const Styles = () => {
     return (
         <>
         <h1>Styles</h1>
-        <Style />
+        <div id="columns">
+        {styles.map((style) => (
+            <Style
+            key={style._id}
+            style={style}
+            />
+        ))}
+        </div>
         </>
     )
 }

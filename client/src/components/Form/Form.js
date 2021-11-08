@@ -11,7 +11,7 @@ const Form = () => {
         title: '', 
         brand: '', 
         model: '', 
-        colorway: '', 
+        colorway: '',
         tags: '', 
         selectedFile: ''
     });
